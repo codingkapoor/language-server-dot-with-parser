@@ -1,6 +1,6 @@
 {
-	"name": "language-server-dot-with-parser",
-	"description": "A language server for DOT language",
+	"name": "vscode-dot-language-server-with-parser",
+	"description": "A VSCode language server protocol implementation for DOT language",
 	"scripts": {
 		"postinstall": "cd server && npm install && cd ../client && npm install && cd ../parser && npm install && cd ..",
 		"compile": "tsc -p client/tsconfig.json && cd server && npm run installServer && cd .. && tsc -p server/tsconfig.json",
