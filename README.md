@@ -4,7 +4,7 @@ This repository is forked from https://github.com/unosviluppatore/language-serve
 
 # Installation
 ```
-cd language-server-dot-with-parser
+cd vscode-dot-language-server-with-parser
 npm install
 ```
 
